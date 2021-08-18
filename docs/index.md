@@ -1,8 +1,3 @@
-
-!-- Proudly coded by Billy (httpsbybilly.uk) --
-!-- Version 1.9.2 --
-
-!DOCTYPE html
 html
 head
 	!-- Info meta tags, important for social media + SEO --
