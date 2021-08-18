@@ -1,37 +1,76 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/ShreyasCoder1214/Buy-Domains.github.io/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+!-- Proudly coded by Billy (httpsbybilly.uk) --
+!-- Version 1.9.2 --
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+!DOCTYPE html
+html
+head
+	!-- Info meta tags, important for social media + SEO --
+	titleMC Dimensions.com - Official Websitetitle
+	meta name=description content=MC Dimensions is a new and awesome Minecraft server. You can join with the IP 'play.mcdimensions.com'.
+	meta property=ogtitle content=MC Dimensions - Official Website Portal
+	meta property=ogsite_name content=MC Dimensions
+	meta property=ogdescription content=MC Dimensions is a new and awesome Minecraft server. You can join with the IP 'play.mcdimensions.com'.
+	meta property=ogimage content=httpsbybilly.ukportalimgminecraft.jpg
+	meta property=ogurl content=httpsbybilly.uk
+	meta name=twittercard content=summary_large_image
 
-### Markdown
+	meta name=viewport content=width=device-width, initial-scale=1.0
+	meta charset=utf-8
+	link rel=preconnect href=httpsfonts.googleapis.com
+	link rel=preconnect href=httpsfonts.gstatic.com crossorigin
+	link href=httpsfonts.googleapis.comcss2family=Open+Sanswght@400;700&display=swap rel=stylesheet
+	link rel=stylesheet href=cssstylesheet.css
+head
+body
+	div class=container
+		div class=logo
+			!-- In the img folder, upload your logo --
+			!-- Make sure you name it 'logo.png' or update the code below --
+			img src=imglogo.png alt=MC Dimensions
+		div
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+		div class=items
+			!-- Replace # with your forum URL--
+			a href=# class=item forums
+			div
+				img src=imgforums.png alt=Minecraft forums icon class=img
+				p class=subtitlechat on ourp
+				p class=titleForumsp
+			div
+			a
 
-```markdown
-Syntax highlighted code block
+			!-- Replace # with your store URL --
+			a href=# class=item store
+			div
+				img src=imgstore.png alt=Minecraft store icon class=img
+				p class=subtitledonate on ourp
+				p class=titleStorep
+			div
+			a
 
-# Header 1
-## Header 2
-### Header 3
+			!-- Replace # with your vote URL --
+			a href=# class=item vote
+			div
+				img src=imgvote.png alt=Minecraft voting icon class=img
+				p class=subtitlesupport us byp
+				p class=titleVotingp
+			div
+			a
 
-- Bulleted
-- List
+		div
 
-1. Numbered
-2. List
+		div class=playercount
+			!-- Replace play.cubecraft.net with your server IP address --
+			!-- Do it on both line 66 and line 67 --
+			!-- Please set both your IP and port --
+			pJoin span class=sip data-ip=play.mcdimensions.com data-port=25565
+			span other players on span class=ipplay.mcdimensions.comspanp
+		div
+	div
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ShreyasCoder1214/Buy-Domains.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+	script src=httpsajax.googleapis.comajaxlibsjquery3.6.0jquery.min.jsscript
+	script src=jsfirefly.js type=textjavascriptscript
+	script src=jsmain.js type=textjavascriptscript
+body
+html
